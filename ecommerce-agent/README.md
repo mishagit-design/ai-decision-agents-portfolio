@@ -2,26 +2,44 @@
 
 ## Overview
 
-The Ecommerce Growth Agent is an AI-powered decision support system designed to help ecommerce teams identify growth opportunities and optimize business performance through data-driven recommendations.
+The Ecommerce Growth Agent is an AI-powered decision support system designed to help ecommerce teams identify growth opportunities and translate business inputs into structured, actionable recommendations.
 
-The agent accepts information about products, customer segments, business objectives, site performance, and operational constraints, then generates structured recommendations focused on revenue growth, conversion optimization, customer retention, merchandising strategy, and experimentation opportunities.
+This project demonstrates how Large Language Models (LLMs) can support retail and ecommerce decision-making across customer segmentation, merchandising, conversion optimization, retention strategy, and experimentation planning.
+
+## Project Versions
+
+### Version 1: Growth Recommendation Agent
+
+The first version focuses on generating ecommerce growth recommendations based on product, customer, and business context.
+
+Key capabilities include:
+
+* Growth opportunity identification
+* Customer segment analysis
+* Conversion optimization recommendations
+* Retention and loyalty strategies
+* Merchandising and assortment guidance
+* Promotion and pricing considerations
+* Suggested success metrics
+
+### Version 2: Growth Agent with A/B Testing Framework
+
+The second version expands the original agent by adding an experimentation layer. In addition to generating growth recommendations, the agent proposes A/B testing ideas to help validate business strategies before broader rollout.
+
+Key capabilities include:
+
+* Hypothesis generation
+* A/B test recommendations
+* Control and treatment group framing
+* Success metric suggestions
+* Experiment risks and tradeoffs
+* Measurement-focused recommendation output
 
 ## Problem Statement
 
-Ecommerce teams face an overwhelming number of potential growth initiatives, ranging from pricing and promotions to customer retention and site optimization. Prioritizing the highest-impact actions often requires synthesizing large amounts of business, customer, and operational data.
+Ecommerce teams often have many possible levers to improve performance, including pricing, promotions, product placement, customer targeting, retention strategy, and site experience. The challenge is not only identifying opportunities, but also prioritizing which actions are worth testing and measuring.
 
-This project explores how Large Language Models (LLMs) can be used to transform business inputs into actionable growth strategies and decision-support recommendations.
-
-## Features
-
-* Growth opportunity identification
-* Customer segmentation recommendations
-* Conversion optimization strategies
-* Retention and loyalty recommendations
-* Merchandising and assortment guidance
-* Promotion and pricing considerations
-* Experimentation and A/B testing suggestions
-* Explainable recommendation generation
+This project explores how AI can help structure ambiguous ecommerce problems into clear growth recommendations and experimentation plans.
 
 ## Example Inputs
 
@@ -38,29 +56,42 @@ This project explores how Large Language Models (LLMs) can be used to transform 
 * Customer retention strategies
 * Conversion optimization opportunities
 * Merchandising recommendations
-* Experimentation roadmap
-* Potential risks and tradeoffs
+* A/B testing roadmap
 * Suggested success metrics
+* Potential risks and tradeoffs
 
 ## Technology Stack
 
 * Python
 * Large Language Models (LLMs)
 * Prompt Engineering
-* Decision Intelligence
 * Retail Analytics
+* Decision Intelligence
+* A/B Testing
+* Experiment Design
 * Structured Recommendation Frameworks
+
+## Repository Structure
+
+```text
+ecommerce-agent/
+├── README.md
+├── v1-growth-agent/
+│   └── app.py
+└── v2-growth-agent-ab-testing/
+    └── app.py
+```
 
 ## Future Enhancements
 
-* Integration with ecommerce APIs
+* Ecommerce API integration
 * Customer behavior analytics
-* Recommendation systems
-* Reinforcement learning for optimization
-* Automated experimentation design
+* Recommendation system logic
+* Reinforcement learning for pricing or promotion optimization
+* Automated experiment design
 * Interactive dashboard interface
+* Sample input and output files
 
 ## Purpose
 
-This project was developed to demonstrate applied AI, decision intelligence, and business-focused analytics in a retail and ecommerce environment. It highlights the use of AI to support strategic decision-making, prioritize growth opportunities, and translate complex business challenges into structured recommendations.
-
+This project was developed to demonstrate applied AI, ecommerce analytics, decision intelligence, and experimentation thinking in a retail business context. It highlights the ability to build AI-powered tools that translate business problems into structured recommendations and measurable next steps.
