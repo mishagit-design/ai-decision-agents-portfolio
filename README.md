@@ -19,3 +19,6 @@ A decision-support agent designed to recommend intervention strategies based on 
 - API-ready architecture
 - Experimentation and A/B testing thinking
 - Stakeholder-facing analytics
+
+## Inputs and Outputs
+Inputs and outputs for each agent can be found in the associated "screenshots" folder
